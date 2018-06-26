@@ -9,6 +9,7 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
+import { DataService } from './sevices/data.service';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { HomeComponent } from './home/home.component';
     ])
   ],
   providers: [
+    // DataService,
     PostsService,
     { provide: ErrorHandler, useClass: AppErrorHandler}
     ],

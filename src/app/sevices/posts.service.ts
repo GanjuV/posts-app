@@ -5,6 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class PostsService extends DataService {
+  static ngInjectableDef = undefined;
   constructor(http: Http) {
     super('http://jsonplaceholder.typicode.com/posts/', http);
   }
