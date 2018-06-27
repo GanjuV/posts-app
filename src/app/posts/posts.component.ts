@@ -1,7 +1,7 @@
 import { BadInput } from './../common/bad-input';
 import { NotFoundError } from './../common/not-found-error';
 import { AppError } from './../common/app-error';
-import { PostsService } from './../sevices/posts.service';
+import { PostsService } from './../sevices/posts/posts.service';
 import { Http } from '@angular/http';
 import { Component, OnInit } from '@angular/core';
 

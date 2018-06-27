@@ -1,5 +1,5 @@
 import { AppErrorHandler } from './common/app-error-handler';
-import { PostsService } from './sevices/posts.service';
+import { PostsService } from './sevices/posts/posts.service';
 import { HttpModule } from '@angular/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { PostsComponent } from './posts/posts.component';
