@@ -1,6 +1,11 @@
 # RnDAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+This project covers below details:-
+ - Creating customise errors in angular.
+ - Using routing with `routerLink` property.
+ - Used fake `jsonplaceholder` api to execute gernal tasks, Like delete, add and remove data.
+ - Used bootstrap for refined UI.
 
 ## Live version
 You can view the live app from below link. 
@@ -33,7 +38,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Using Fake API 
 We are usign fake API call to learn HTTP client and do some researches.
-http://jsonplaceholder.typicode.com 
+https://jsonplaceholder.typicode.com 
 Since it is a fake service there is not data insertions.
 
 - Since we are using fake API there is no provision to save data, we are just saving data in array data structure. So when we delete the data inserted we get an alert "Already deleted".
