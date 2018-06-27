@@ -33,3 +33,7 @@ http://jsonplaceholder.typicode.com
 Since it is a fake service there is not data insertions.
 
 - Since we are using fake API there is no provision to save data, we are just saving data in array data structure. So when we delete the data inserted we get an alert "Already deleted".
+
+## Deployment 
+Run below command to build and deploy production version on github pages.
+`npm run deploy:gh` 
