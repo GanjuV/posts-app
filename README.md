@@ -51,5 +51,5 @@ Run below command to build and deploy production version on github pages.
 
 ## To deploy application on GitHub pages follow below steps 
 1. npm i -g angular-cli-ghpages
-2. ng build --prod --base-href=“https://<username>.github.io/<repository>/”
+2. ng build --prod --base-href=“https://`username`.github.io/`repository`/”
 3. ngh --dir dist/<project name> (Angular6 version)
